@@ -38,6 +38,7 @@ public class SellerListcontroller implements Initializable, DataChangeListener {
 	private SellerService service;
 
 	private ObservableList<Seller> obsList;
+	
 	@FXML
 	private TableView<Seller> tableViewSeller;
 
